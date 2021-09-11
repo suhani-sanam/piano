@@ -13,7 +13,7 @@ class XylophoneApp extends StatelessWidget {
           final player=AudioCache();
           player.play('note1.wav');
         },
-        child: Text('Click Me now'),
+        child: Text('Click Me'),
         ),),
         ),
       ),
